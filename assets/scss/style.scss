@@ -1,0 +1,35 @@
+// style.scss # Manifest File
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Vendors
+@import 'vendor/vendor';
+@import 'vendor/bootstrap_v4.5.2/bootstrap.scss';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+@import 'base/fonts';
+
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/hero';
+@import 'layout/navigation';
+@import 'layout/main';
+
+
+// Components
+@import 'components/inputs';
+@import 'components/button';
+
+// Pages
+@import 'pages/index';
+
+// Theme
+@import 'themes/theme';

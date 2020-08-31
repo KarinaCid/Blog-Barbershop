@@ -1,0 +1,15 @@
+.button
+{
+    &__radius{
+        &-50{border-radius: 50px !important;}
+    }
+}
+.footer__buttons
+{ 
+    &__btn{
+        display: block !important;
+        margin-top: 250px !important;
+    }
+    &__btn-radius {border-radius: 50px !important;}
+
+}

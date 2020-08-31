@@ -1,0 +1,35 @@
+.hero {
+  &__section {
+    background-image: url('../img/post-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+  &__title {
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+    top: 30%;
+    text-align: center;
+  }
+  h1 {
+    font-family: $secondary-font-italic !important;
+    font-size: $xx-large !important;
+    }
+
+  &__button{
+    position: absolute !important;
+    bottom: 0%;
+    left: 50%;
+    display: block;
+    &__arrow{
+      width: 4 rem;
+    }
+  }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <title>Barber Shop</title>
+  </head>
+  <body>
+
+    <header class="header">
+                    <!--navbar-->
+      <div class="header__nav">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark justify-content-end">
+          <a class="navbar-brand container mx-3" href="#">
+            <img src="./assets/img/logo.png" alt="moustache drawing logo in white" class= "img-fluid" width="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-warning disabled" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Horas <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div >
+              <!--end navbar-->
+              <!--hero-->
+      <section class="hero">
+        <div class="hero__section container-fluid">
+            <div class="hero__txt">
+              <h1 class="hero__title text-black mx-auto">5 formas de cuidar <br> tu corte de cabello</h1>
+            </div>
+            <div class="hero__button">
+              <i class="row fas fa-chevron-down hero__arrow"></i><br>
+              <i class="row fas fa-chevron-down hero__arrow"></i>
+            </div>
+        </div>
+      </section>
+    </header>
+  <!--end hero-->
+  <!--main-->
+    <main class="main">
+      <section class="container">
+        <article class="main_article my-3">
+          <p class="my-4">12 de Abril de 2018</p><br>
+          <p>ipsum dolor, sit amet consectetur adipisicing elit. Ullam saepe corporis sed consequatur ducimus ipsum vitae error veritatis, voluptatem accusamus velit minus eveniet consectetur assumenda eaque! Animi quis nostrum ad. <br><br>
+          Quidem numquam saepe, nostrum illo atque dolorum omnis, eum tempore exercitationem fugiat, expedita veniam suscipit adipisci sint? Cumque repellat quisquam qui voluptate ducimus. Cum maiores voluptate suscipit tempora nesciunt tempore?<br><br>
+          Maiores, aliquid? Ad corrupti ut laboriosam labore, voluptatibus asperiores et atque cupiditate impedit, accusamus ullam sunt fugit fuga quia sapiente placeat voluptatem deserunt, ipsa enim architecto tempore aliquid. Ratione, <br><br>
+          A ipsa dolore vero culpa, voluptate similique nulla quasi dolor numquam optio sit, sint beatae id corrupti officiis. Exercitationem in unde adipisci! Adipisci fugit vero pariatur, corrupti ipsum id voluptatem? <br><br>
+          Earum, cum temporibus. Deserunt, id at. Eos animi dolores vitae at suscipit aliquam fuga sit eaque aperiam. Doloremque delectus, non, ducimus eaque dolorum quos, sint adipisci assumenda dicta id similique. <br><br>
+          </p>
+        </article>
+      </section>
+      <!-- share buttons-->
+      <section class="container">
+        <div class="main_buttons row">
+          <button type="button" class="btn btn-success bg-secondary border-0 button__radius-50 mr-2">Compartir</button>
+          <button type="button" class="btn btn-success bg-secondary border-0 button__radius-50">Compartir en Twitter</button><br><br>
+        </div>
+      </section>
+      <!-- informacion del escritor -->
+      <section>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12 col-md-2">
+              <img id="naomi" src="./assets/img/naomi-thai.png" class="img-thumbnail rounded-circle" alt="Naomi Thai's photo">
+            </div>
+            <div class="col-12 col-md-4">
+              <h2 class="play_font">Naomi Thai</h2>
+              <p>@naothaidepelos.com</p>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-block">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eveniet, commodi quis dignissimos maiores repudiandae et itaque minima sunt vero odit suscipit velit optio aperiam eos modi cum consequatur similique.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- botones de paginacion-->
+      </section class="footer__buttons">
+        <div class="btn-toolbar container col-sm-12" style="background-color:darkgrey" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="row m-auto footer__btn">
+            <div class="btn-group mt-4 mb-4" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary bg-light text-muted">Anterior</button>
+              <button type="button" class="btn btn-secondary bg-light text-dark">1</button>
+              <button type="button" class="btn btn-secondary bg-secondary active">2</button>
+              <button type="button" class="btn btn-secondary bg-light text-dark">3</button>
+              <button type="button" class="btn btn-secondary bg-light text-dark">Siguiente</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  <!--end main-->
+  <!--footer-->
+    <footer class="footer">
+      <div class="footer__card">
+        <section class="footer__logo container-fluid">
+          <div class="row" style="background-color: black">
+            <img src="./assets/img/logo.png" alt="footer moustache drawing logo in white" id="footer__logo-moustache" class="mx-auto my-4"> 
+          </div>
+        </section>
+      </div>
+    </footer>
+  <!--end footer-->
+
+  <!--J Query-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>
